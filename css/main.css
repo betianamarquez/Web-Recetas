@@ -1,5 +1,16 @@
 
 /*  ESTILOS GENERALES */
+/* Layout principal: GRID */
+.layout {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr minmax(300px, 1200px) 1fr;
+}
+
+main {
+  grid-column: 2;
+}
+
 body {
   background-color: #f6eccf;
   font-family: Arial, Helvetica, sans-serif;

@@ -163,14 +163,14 @@ ul li:hover {
 }
 
 .receta ul li {
-  list-style: disc !important;
-  background: none !important;
-  padding: 5px !important;
-  margin: 0 !important;
-  border-radius: 0 !important;
-  font-size: inherit !important;
-  cursor: default !important;
-  transform: none !important;
+  list-style: disc ;
+  background: none ;
+  padding: 5px ;
+  margin: 0 ;
+  border-radius: 0 ;
+  font-size: inherit ;
+  cursor: default ;
+  transform: none ;
 }
 
 

@@ -227,11 +227,11 @@ th, td {
 
 /* FOOTER */
 footer {
-  display: flex !important;
+  display: flex;
   justify-content: center;
   align-items: center;
   gap: 25px;
-  flex-direction: row !important;
+  flex-direction: row;
   flex-wrap: wrap; 
 }
 

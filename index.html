@@ -1,181 +1,120 @@
-1<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Fuente GOOGLE -->
+
+  <!-- Fuente Google -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/main.css">
-
-  <title>Recetas</title>
-  
-  <style>
-    h1 {
-      color:#f6eccf ; /* beige cálido */
-    }
-  </style>
+  <title>Recetas al Toque</title>
 </head>
+
 <body>
-  <img src="img/Encabezado.png" alt="foto con vegetales y condimentos" width="670">
-  <header>
-    <h1>Recetas al Toque</h1>
-    <p>
-      Descubrí recetas fáciles, ricas y al alcance de todos. Desde tortas caseras hasta platos rápidos para todos los días, con pasos simples y tips prácticos para que cocinar sea un placer y no una complicación.
-    </p>
-    <nav>
-      <ul>
-        <li><a href="pages/productos.html">Comer rico es fácil y barato</a></li>
-        <li><a href="pages/contacto.html">Recetas Veganas/Vegetarianas</a></li>
-      </ul>
-    </nav>
+  <header class="hero">
+    <img src="img/Encabezado.png" alt="foto con vegetales y condimentos" class="hero-img">
+    <div class="hero-content">
+      <h1>Recetas al Toque</h1>
+      <p>Descubrí recetas fáciles, ricas y al alcance de todos. Desde tortas caseras hasta platos rápidos para todos los días, con pasos simples y tips prácticos para que cocinar sea un placer y no una complicación.</p>
+
+      <nav>
+        <ul>
+          <li><a href="pages/productos.html">Comer rico es fácil y barato</a></li>
+          <li><a href="pages/contacto.html">Recetas Veganas/Vegetarianas</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
+  <main class="container">
     <h2>¡Bienvenid@s a nuestra cocina!</h2>
-    <p>RECETAS:</p>
-
-    <ol>
+    <div style="width:100%; display:block; text-align:center;">
+    <p class="intro">RECETAS:</p>
+    </div>
+    <ul class="categoria-list">
       <li>Casuales / Amigables</li>
       <li>Formales / Gourmet</li>
       <li>Divertidas / Cancheras</li>
-    </ol>
+    </ul>
 
-    <!-- Receta 1 -->
-    <section>
+    <!-- Recetas -->
+    <section class="receta">
       <h3>Casual/Amigable: Tostadas de palta con huevo</h3>
       <h4>Ingredientes:</h4>
       <ul>
         <li>Pan (integral o el que tengas)</li>
         <li>1 palta madura</li>
-        <li>1 huevo (a la plancha, revuelto o hervido)</li>
+        <li>1 huevo</li>
         <li>Sal, pimienta y limón</li>
       </ul>
       <h4>Preparación:</h4>
-      <p>
-        Tostar el pan. Pisar la palta con un poquito de limón, sal y pimienta.  
-        Poner arriba el huevo como más te guste.
-      </p>
-      <img src="img/huevos con palta.jpg" alt="unos huevos con palta" width="330">
+      <p>Tostar el pan. Pisar la palta con limón, sal y pimienta. Agregar el huevo.</p>
+      <img src="img/huevos con palta.jpg" alt="tostadas con palta"width="400">
     </section>
 
-    <!-- Receta 2 -->
-    <section>
+    <section class="receta">
       <h3>Formal/Gourmet: Salmón grillado con risotto de espárragos</h3>
-      <h4>Ingredientes (para dos personas):</h4>
+      <h4>Ingredientes:</h4>
       <ul>
-        <li>2 lomos de salmón fresco (150-200 g cada uno)</li>
-        <li>2 cdas de miel</li>
-        <li>Jugo de 1 naranja</li>
-        <li>Ralladura de ½ limón</li>
-        <li>1 cda de salsa de soja</li>
-        <li>1 cda de aceite de oliva</li>
-        <li>Sal marina y pimienta</li>
-      </ul>
-
-      <h4>Para el risotto de espárragos:</h4>
-      <ul>
-        <li>1 taza de arroz arborio</li>
-        <li>1 litro de caldo de verduras</li>
-        <li>½ cebolla picada</li>
-        <li>1 vaso pequeño de vino blanco</li>
-        <li>1 atado de espárragos verdes</li>
-        <li>2 cdas de manteca</li>
-        <li>50 g de queso parmesano</li>
+        <li>Salmón fresco</li>
+        <li>Miel, naranja, limón</li>
+        <li>Salsa de soja</li>
+        <li>Aceite de oliva</li>
       </ul>
 
       <h4>Preparación:</h4>
-      <p>
-        Sofreír cebolla, agregar arroz y nacarar.  
-        Verter vino blanco y dejar evaporar.  
-        Incorporar caldo poco a poco.  
-        Cuando falten 5 minutos, añadir espárragos.  
-        Finalizar con manteca y parmesano.
-      </p>
-      <p>
-        Marinar el salmón con miel, cítricos, soja y oliva.  
-        Sellar 2-3 min por lado.  
-        Reducir la marinada y glasear al servir.
-      </p>
-      <img src="img/salmon con esparragos.avif" alt="salmón con espárragos" width="330">
+      <p>Marinar el salmón, sellar y glasear con la reducción.</p>
+      <p>Preparar risotto con espárragos y finalizar con parmesano.</p>
+
+      <img src="img/salmon con esparragos.avif" alt="salmón gourmet"width="400">
     </section>
 
-    <!-- Receta 3 -->
-    <section>
+    <section class="receta">
       <h3>Divertido/Canchero: Pollo a la mostaza y miel con papas crocantes</h3>
       <h4>Ingredientes (para 2):</h4>
-      <ul>
-        <li>2 pechugas de pollo</li>
-        <li>2 cdas de miel</li>
-        <li>1 cda de mostaza Dijon</li>
-        <li>2 dientes de ajo</li>
-        <li>1 chorrito de crema de leche</li>
-      </ul>
-      <h4>Papas crocantes:</h4>
-      <ul>
-        <li>3 papas medianas</li>
-        <li>Romero fresco</li>
-        <li>Aceite de oliva</li>
-        <li>Sal gruesa</li>
-      </ul>
-      <h4>Preparación:</h4>
-      </h4> <ul> 
-        <li> Las papas primero: Cortalas en gajos tipo “papas rústicas”. Las tirás en una fuente, aceite de oliva, sal gruesa y romero. Al horno fuerte (200-220°C) hasta que estén doradas y crocantes. </li> </ul> <ul> <li> Para el pollo: Sellás las supremas en sartén con oliva hasta que estén doraditas por fuera. Sacás y en esa misma sartén agregás el ajo, la mostaza y la miel → revolvés. Sumás la crema de leche, salpimentás y dejás que se vuelva una salsa brillante. Volvés a meter las supremas y las bañás bien con la salsa. </li> </ul> <ul> <li> Montaje: Plato grande: base de papas crocantes, supremas arriba con toda la salsita. Decorás con un ramito de romero y un chorrito extra de miel (opcional, pero levanta el look). 
-      </li> 
-    </ul>
-      <p>
-        Papas al horno con romero hasta dorar.  
-        Sellar pollo, agregar ajo, mostaza, miel y crema.  
-        Servir con papas crocantes y decorar.
-      </p>
-      <img src="img/pollo con romero.jpg" alt="pollo con romero" width="330">
+       <ul> <li>2 pechugas de pollo</li>
+         <li>2 cdas de miel</li> 
+         <li>1 cda de mostaza Dijon</li>
+          <li>2 dientes de ajo</li> 
+          <li>1 chorrito de crema de leche</li>
+         </ul> <h4>Papas crocantes:</h4> <ul> 
+          <li>3 papas medianas</li> 
+          <li>Romero fresco</li>
+           <li>Aceite de oliva</li> 
+           <li>Sal gruesa</li> 
+          </ul> <h4>Preparación:</h4>
+       <p style="max-width:700px; margin:auto; text-align:justify;"> Las papas primero: cortalas en gajos tipo “papas rústicas”. Al horno fuerte (200-220°C) hasta que estén doradas y crocantes. Sellar el pollo, agregar ajo, mostaza, miel y crema. Servir con papas crocantes. </p>
+      <img src="img/pollo con romero.jpg" alt="pollo con papas" width="400">
     </section>
 
     <!-- Tabla semanal -->
-    <section>
-      <h3>Ideas para la semana:</h3>
-      <table border="2">
+    <section class="semana">
+      <h3>Ideas para la semana</h3>
+      <table>
         <thead>
           <tr>
-            <th>Lunes</th>
-            <th>Martes</th>
-            <th>Miércoles</th>
-            <th>Jueves</th>
-            <th>Viernes</th>
-            <th>Sábado</th>
-            <th>Domingo</th>
+            <th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th><th>Sábado</th><th>Domingo</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>Pollo al horno con papas</td>
-            <td>Fideos con salsa boloñesa</td>
-            <td>Tortilla de papas con ensalada</td>
-            <td>Milanesas con puré</td>
-            <td>Arroz con pollo</td>
-            <td>Pizza casera</td>
-            <td>Asado o pastas caseras</td>
+            <td>Pollo con papas</td><td>Boloñesa</td><td>Tortilla</td><td>Milanesas</td><td>Arroz con pollo</td><td>Pizza</td><td>Asado o pastas</td>
           </tr>
         </tbody>
       </table>
     </section>
-  </main>
 
-  <footer>
-    <h4>Seguinos en nuestras redes:</h4>
-    <a href="https://x.com/?lang=es" target="_blank">
-      <img src="img/logo-black.png" alt="X" width="40">
-    </a>
-    <a href="https://www.facebook.com/" target="_blank">
-      <img src="img/Facebook_Logo_(2019).png" alt="Facebook" width="40">
-    </a>
-    <a href="https://www.instagram.com/" target="_blank">
-      <img src="img/Instagram_Glyph_Gradient.png" alt="Instagram" width="40">
-    </a>
-  </footer>
+  </main>
+<footer>
+  <h4>Seguinos en nuestras redes:</h4>
+  <a href="https://x.com/?lang=es" target="_blank"><img src="img/logo-black.png" width="40"></a>
+  <a href="https://www.facebook.com/" target="_blank"><img src="img/Facebook_Logo_(2019).png" width="40"></a>
+  <a href="https://www.instagram.com/" target="_blank"><img src="img/Instagram_Glyph_Gradient.png" width="40"></a>
+</footer>
 
 </body>
 </html>
